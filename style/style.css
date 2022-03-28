@@ -5,93 +5,38 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: #000;
+	color: white;			
 }
 
-.MainBodyContent {
-	display: flex;
-	flex-direction: column;
-	width: 327px;
+.HeaderWrapper
+{
+	width:95%;	
 	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	border-radius: 15px;
+	margin-top: 50px;
+	height: 100px;
 }
 
-.HeroImage {
-	height: 240px;
-	position: relative;
+.Logo
+{
+	width: 300px;
+	float: left;
+	cursor: pointer;
 }
 
-.ImageOverlay {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	background-color: hsl(277, 64%, 61%);
-	height: 100%;
-	width: 100%;
-	opacity: 0.7;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
-
-.MobileImage {
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-}
-
-.DesktopImage {
-	display: none;
-}
-
-.BodyDetails {
+.HeaderMenuWrapper
+{
+	float: right;	
 	display: flex;
-	flex-direction: column;
-	width: 100%;
-	background-color: hsl(244, 38%, 16%);
+	flex-wrap: nowrap;
+}
+
+.HeaderMenuItem
+{
+	width: 120px;
 	text-align: center;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	cursor: pointer;
 }
 
-.BodyContentWrapper {
-	width: 80%;
-	margin: auto;
-	margin-top: 30px;
-}
-
-.Title {
-	font-size: 30px;
-	color: white
-}
-
-.HighLightTitle {
-	color: hsl(277, 64%, 61%);
-}
-
-.ContentDetails {
-	color: hsla(0, 0%, 100%, 0.75);
-	margin-top: 10px;
-	font-size: 15px;
-	line-height: 22px;
-}
-
-.StatsWrapper {
-	color: white;
-	margin-top: 20px;
-}
-
-.StatsElem {
-	height: 90px;
-}
-
-.StatsElem .Numbers {
-	font-size: 30px;
-}
-
-.StatsElem .Units {
-	color: hsla(0, 0%, 100%, 0.75);
-	font-size: 13px;
-}
 
 .row::after {
 	content: "";
@@ -147,44 +92,7 @@ body {
 	[class*="col-"] {
 		float: left;
 	}
-	.MainBodyContent {
-		height: 446px;
-		width: 1000px;
-		flex-direction: row-reverse;
-		margin-top: 200px;
-	}
-	.MobileImage {
-		display: none;
-	}
-	.DesktopImage {
-		display: block;
-		border-top-right-radius: 15px;
-		border-bottom-right-radius: 15px;
-	}
-	.ImageOverlay {
-		border-top-left-radius: 0px;
-		border-top-right-radius: 15px;
-		border-bottom-right-radius: 15px;
-		height: 446px;
-		width: 540px;
-	}
-	.BodyDetails {
-		width: 460px;
-		border-bottom-right-radius: 0px;
-		border-top-left-radius: 15px;
-	}
-	.BodyContentWrapper {
-		width: 70%;
-		text-align: left;
-		margin-top: 75px;
-	}
-	.StatsWrapper {
-		display: flex;
-		margin-top: 80px;
-	}
-	.StatsElem {
-		width: 33%;
-	}
+	
 }
 
 @media only screen and (min-width: 1000px) {
