@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #000;
+	background-color: hsl(218, 28%, 13%);
 	color: white;			
 }
 
@@ -36,6 +36,53 @@ body {
 	text-align: center;
 	cursor: pointer;
 }
+
+.HeroWrapper
+{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.HeroTitle
+{
+	font-size: 30px;	
+	width: 40%;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.HeroDetails
+{
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+	width: 40%;
+}
+
+.CallToActionBtn
+{
+	margin-top: 30px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 15px;
+	background-color: hsl(176, 68%, 64%);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 
 
 .row::after {
