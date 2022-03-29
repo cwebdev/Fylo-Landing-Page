@@ -75,11 +75,47 @@ body {
 	cursor: pointer;
 }
 
+.FeaturesWrapper
+{
+	width: 60%;	
+	margin: auto;
+	margin-top:170px;
+}
 
+.FeaturesRow
+{
+	width: 100%;
+	display: flex;	
+}
 
+.FeatureElemWrapper
+{
+	width: 50%;	
+	height: 300px;
+}
 
+.FeatureElem
+{
+	width: 60%;
+	margin:auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
 
+.FeatureTitle
+{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+}
 
+.FeatureDetails
+{
+	margin-top: 15px;
+	font-size: 15px;
+}
 
 
 
