@@ -37,6 +37,12 @@ body {
 	cursor: pointer;
 }
 
+.HeaderMenuItem:hover
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .HeroWrapper
 {
 	width: 80%;
@@ -73,6 +79,11 @@ body {
 	border-radius: 15px;
 	background-color: hsl(176, 68%, 64%);
 	cursor: pointer;
+}
+
+.CallToActionBtn:hover
+{
+	font-weight: bold;
 }
 
 .FeaturesWrapper
@@ -167,12 +178,22 @@ body {
 
 .HowFyloWorks
 {
-	margin-top: 20px;
-	text-decoration: underline;
+	margin-top: 20px;	
 	color: hsl(176, 68%, 64%);
 	cursor: pointer;
 	position: relative;
 	width: 165px;
+}
+
+.HowFyloWorks:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+
+.HowFyloWorks:hover img
+{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(143deg) brightness(105%) contrast(103%);
 }
 
 .HowFyloWorks img
@@ -329,14 +350,18 @@ body {
 .SignUpBtn
 {
 	width: 35%;
-	height: 45px;
-	font-weight: bold;
+	height: 45px;	
 	border-radius: 25px;
 	text-align: center;
 	padding-top: 14px;
 	background-color: hsl(176, 68%, 64%);
 	cursor: pointer;
 	margin-left: 30px;
+}
+
+.SignUpBtn:hover
+{
+	font-weight: bold;
 }
 
 .FooterContentWrapper
