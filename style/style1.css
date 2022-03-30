@@ -124,6 +124,45 @@
         line-height: inherit;
     }
 
+    
+    .FyloWorksWrapper
+    {        
+        width: 70%;   
+        flex-direction: row;  
+    }
+
+    .FyloWorksImage
+    {
+        width: 50%;
+    }
+
+    .FyloWorksImage img
+    {
+        width: 615px;
+        height: 465px;        
+    }
+
+    .StayProductiveWrapper
+    {
+        width: 50%;
+    }
+
+    .StayProductiveElem
+    {
+        width: 80%;
+        margin-top: auto;
+    }
+
+    .StayProductiveTitle
+    {
+        width: 50%;
+        font-size: 30px;
+    }
+
+    .StayProductiveDetails
+    {
+        line-height: inherit;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
