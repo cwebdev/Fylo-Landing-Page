@@ -188,7 +188,7 @@ body {
 	width: 80%;
 	margin: auto;
 	margin-top: 170px;
-	margin-bottom: 350px;
+	margin-bottom: 250px;
 	justify-content: space-around;
 }
 
@@ -265,7 +265,7 @@ body {
 
 .FooterSection
 {
-	height: 400px;
+	height: 500px;
 	background-color: hsl(216, 53%, 9%);
 	position: relative;
 }
@@ -339,11 +339,123 @@ body {
 	margin-left: 30px;
 }
 
+.FooterContentWrapper
+{
+	width: 90%;
+	position: absolute;
+	top: 200px;
+	left: 5%;
+	display: flex;
+	flex-direction: column;	
+}
+
+.FooterLogoWrapper
+{
+	width: 100%;	
+}
+
+.FooterContent
+{
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	height: 200px;
+}
+
+.LocationWrapper
+{
+	width: 30%;
+	display: flex;
+	height: 100px;
+}
+
+.LocIcon
+{
+	margin-top: 5px;
+}
+
+.LocationDetails
+{
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+.ContactWrapper
+{
+	width: 35%;	
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+
+.PhoneContact
+{
+	display: flex;
+	width: 200px;		
+}
+
+.PhoneDetails
+{
+	margin-left: 20px;
+}
+
+.EmailContact
+{
+	display: flex;
+	width: 200px;
+	margin-top: 20px;	
+}
+
+.EmailDetails
+{
+	margin-left: 20px;
+}
 
 
+.LinksWrapper1
+{
+	width: 12%;
+	display: flex;
+	flex-direction: column;
+}
+
+.FooterLink
+{
+	cursor: pointer;
+	margin-top: 15px;
+}
 
 
+.FooterLink:hover
+{
+	font-weight: bold;
+}
 
+.FirstFooterLink
+{
+	margin-top: 0px;
+}
+
+.LinksWrapper2
+{
+	width: 12%;
+	display: flex;
+	flex-direction: column;
+}
+
+.SocialMediaWrapper
+{
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.FooterIcon {
+	width: 40px;
+	height: 40px;
+	filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(143deg) brightness(105%) contrast(103%);
+    cursor: pointer;
+}
 
 
 
