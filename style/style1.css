@@ -214,10 +214,55 @@
     
 
 
+    .FooterSection
+    {
+	    height: 500px;
+    }
+
+    .FooterContentWrapper
+    {
+        top: 200px;        
+        width: 90%;
+        left: 5%;
+    }
 
 
+    .FooterContent
+    {
+        flex-direction: row;
+        height: 200px;
+    }
 
-    
+
+    .LocationWrapper
+    {
+	    width: 30%;
+    }
+
+    .ContactWrapper
+    {
+        width: 35%;        
+        align-items: center;
+    }
+
+    .LinksWrapper1
+    {
+        width: 12%;
+        margin-top: 0px;
+    }
+
+    .LinksWrapper2
+    {
+        width: 12%;        
+        margin-top: 0px;
+    }
+
+    .SocialMediaWrapper
+    {
+        width: 10%;  
+        margin: 0;      
+    }
+
 
 }
 
