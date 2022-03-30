@@ -102,7 +102,7 @@ body {
 
 .FeaturesWrapper
 {
-	width: 60%;	
+	width: 90%;	
 	margin: auto;
 	margin-top:170px;
 }
@@ -111,17 +111,18 @@ body {
 {
 	width: 100%;
 	display: flex;	
+	flex-wrap: wrap;
 }
 
 .FeatureElemWrapper
 {
-	width: 50%;	
+	width: 100%;	
 	height: 300px;
 }
 
 .FeatureElem
 {
-	width: 60%;
+	width: 100%;
 	margin:auto;
 	display: flex;
 	align-items: center;
@@ -139,7 +140,8 @@ body {
 .FeatureDetails
 {
 	margin-top: 15px;
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 25px;
 }
 
 

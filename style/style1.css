@@ -101,6 +101,29 @@
         cursor: pointer;
     }
 
+    .FeaturesWrapper
+    {
+        width: 60%;	
+    }
+
+    .FeatureElemWrapper
+    {
+        width: 50%;	
+        height: 300px;
+    }
+
+    .FeatureElem
+    {
+        width: 60%;
+    }
+
+    .FeatureDetails
+    {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: inherit;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
