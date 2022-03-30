@@ -371,6 +371,11 @@ body {
 	padding-left: 2%;
 }
 
+.EmailLabel
+{
+	display: none;
+}
+
 .SignUpBtn
 {
 	width: 90%;
@@ -378,7 +383,7 @@ body {
 	border-radius: 25px;
 	text-align: center;
 	padding-top: 14px;
-	background-color: hsl(176, 68%, 64%);
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 	cursor: pointer;
 	margin-top: 20px;	
 }
