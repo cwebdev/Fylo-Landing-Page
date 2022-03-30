@@ -24,11 +24,15 @@ This dark theme Fylo landing page with grid layout is developed in HTML5, CSS3 a
 
 ### Lighthouse Screenshot
 
+![](./Lighthouse_Screenshot.jpg)
 
 ### Desktop Screenshot
 
+![](./Desktop_Screenshot.png)
 
 #### Mobile Screenshot
+
+![](./Mobile_Screenshot.png)
 
 ### Links
 
