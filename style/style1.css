@@ -163,6 +163,34 @@
     {
         line-height: inherit;
     }
+
+    .TestimonialsWrapper
+    {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        margin-top: 170px;
+        margin-bottom: 250px;
+        justify-content: space-around;
+    }
+
+    .TestimonialElem
+    {
+        width: 30%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+
+
+
+
+
+
 }
 
 @media only screen and (min-width: 1000px) {
